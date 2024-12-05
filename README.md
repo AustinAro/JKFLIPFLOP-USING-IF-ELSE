@@ -44,7 +44,7 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **PROGRAM**
 
-Developed by: SURYA DRegisterNumber:24901185
+Developed by: Austin Aro A RegisterNumber:24900653
 
 module jk(j, k, clk, rst, q);
   input j, k, clk, rst;
