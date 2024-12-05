@@ -46,12 +46,10 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 Developed by: Austin Aro A RegisterNumber:24900653
 
+**JK FLIPFLOP**
 module jk(j, k, clk, rst, q);
   input j, k, clk, rst;
   output reg q;
-
-**JK FLIPFLOP**
-
   always @(posedge clk or posedge rst) begin
     if (rst)
       q <= 0;
